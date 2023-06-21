@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(170, 13, 116);
+    color: rgb( 255, 201, 92);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    margin-left: 80px;
+    margin-right: 80px;
+    letter-spacing: normal;
+    font-weight:bold
+
+}
+p{
+    font-size: 20px
+}
+
+img{
+    width:500px
+}
+a{
+    color:rgb( 255, 201, 92); 
+    font-size: large;
+    text-decoration: none
+}
+a:visited{
+color: rgb(38, 14, 136);
+font-size: large;
+text-decoration: none
+}
+a:hover{
+    color: rgb( 255, 201, 92);
+    font-size:large;
+    text-decoration: none
+}

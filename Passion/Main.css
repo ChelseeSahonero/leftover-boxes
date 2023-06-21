@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(34, 30, 65);
+    color: rgb( 197, 28, 109);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    margin-left: 80px;
+    margin-right: 80px;
+    letter-spacing: normal;
+    font-weight:bold
+}
+
+p{
+    font-size: 20px
+}
+
+img{
+    width:500px
+}
+a{
+    color: rgb( 197, 28, 109); 
+    background-color: rgb(59, 63, 136);
+    font-size: large;
+    filter: drop-shadow(8px 8px 10px rgb(18,15,45));
+    line-height: 50px;
+    padding: 10px;
+    text-decoration: none
+    
+    
+
+}
+a:visited{
+color: rgb(175, 36, 153);
+background-color: rgb(59, 63, 136);
+font-size: large;
+filter: drop-shadow(8px 8px 10px rgb(18,15,45));
+line-height: 50px;
+padding: 10px;
+text-decoration: none
+}
+a:hover{
+    color: rgb( 197, 28, 109);
+    background-color: rgb(59, 63, 136);
+    font-size:larger;
+    filter: drop-shadow(8px 8px 10px rgb(18,15,45));
+    line-height: 50px;
+    padding: 10px;
+    text-decoration: none
+}
+

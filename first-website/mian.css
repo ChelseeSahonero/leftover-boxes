@@ -1,0 +1,81 @@
+    p{
+                color: yellow; 
+                background-color: black;
+                border: 10px inset lightgreen;
+                border-radius: 20px;
+                font-size: 20px;
+
+
+                padding: 30px;
+
+                max-width: 500px;
+
+                overflow: auto;
+
+                text-align: justify;
+                line-height: 18px;
+            }
+            body{
+                background-color: lightblue;
+                color: white;
+                margin: 40px;
+
+                font-family: "Karla", serif;
+            }
+
+            img{
+               max-width: 100%;
+               width: 500px;
+
+               max-height: 500px;
+            }
+            h1{
+                color: rgb(90, 180, 150);
+            }
+            .special {
+                color: blue;
+                background-color:orangered;
+                filter: blur(10px);
+            }
+           
+            .special:hover{
+                background-color: khaki;
+                text-align: center;
+                filter: blur(0);
+            }
+
+            /* css rules that are further down in the document have higher specificity  */
+
+            .neat {
+                color: blueviolet;
+            }
+            .cool{
+                font-weight: bold;
+                text-decoration: line-through wavy;
+                font-style: italic;
+
+                color: firebrick;
+            }
+            .dim{
+                background-color: burlywood;
+                padding: 10px;
+                margin: 10px;
+
+                width: 200px;
+                height: 200px;
+            }
+            .spam{
+                background-color: darkkhaki;
+            }
+
+            a {
+                color: red;
+                text-decoration:none;
+            }
+            a:visited{
+                color: pink;
+            }
+
+            a:hover{
+                background-color: darkslateblue;
+            }
