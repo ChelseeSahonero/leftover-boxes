@@ -1,4 +1,21 @@
 body{
 background-color: lightskyblue;
 color: white;
+text-align: center;
+font-size: large;
+}
+ul{
+    text-align: left;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    font-size: larger;
 }
