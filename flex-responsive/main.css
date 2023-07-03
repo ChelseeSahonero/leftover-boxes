@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: purple;
+}
+header{
+    background-color:mediumpurple;
+    padding: 10px;
+    text-align: center;
+}
+footer{
+
+    background-color: mediumpurple;
+    padding: 10px;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+
+main{
+    display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        gap: 10px;
+    }
+.side{
+    background-color: mediumpurple;
+    width: 25%
+}
+.center{
+    background-color: mediumpurple;
+    width: 50%
+
+}
+
+@media screen and (max-width: 800px){
+
+ body{
+    background-color: purple;
+    }
+    main{
+        flex-direction: column;
+    }
+
+    .side, .center{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        font-size: 150%;
+    }   
+}

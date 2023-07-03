@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+text-align: center;
+align-items: center;
+background-color: sandybrown;
+font-family: monospace;
+font-size: x-large;
+transition: all .3s;
+}
+
+a{
+    color: darkblue;
+    text-decoration: none;
+}
+a:visited{
+    color: darkblue;
+    text-decoration: none
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 1335px;
+    position: relative;
+    left: 280px;
+    top: 5px;
+}
+
+.house{
+    background-color: cadetblue;
+    padding: 10px;
+    display: flex;
+
+
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    width: 1200px;
+    height: 1200px;
+
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    position: relative;
+    left:350px;
+
+}
+
+
+.attic{
+background-color: cadetblue;
+display: flex;
+height: 30%;
+justify-content: center;
+align-items: center;
+
+padding: 10px;
+gap: 10px;
+}
+
+.room-1{
+    background-color:mediumseagreen;
+    width: 1000px;
+    height: 300px;
+}
+
+.second-floor{
+    background-color: cadetblue;
+    display: flex;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    gap: 10px;
+}
+
+.room-2{
+    background-color: bisque;
+    width: 700px;
+    height: 300px;
+}
+
+.room-3{
+    background-color:forestgreen;
+    width: 300px;
+    height: 300px;
+}
+
+.first-floor{
+    background-color: cadetblue;
+    display: flex;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    gap: 10px;
+}
+
+.room-4{
+    background-color:brown;
+    width: 700px;
+    height: 300px;
+}
+.room-5{
+    background-color:lightsteelblue;
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and (max-width:900px){
+    
+    body{
+    transform: scale(.4);
+    position: relative;
+    max-width: 900px;
+    max-height: 900px;
+    margin: 0%;
+    overflow: hidden;
+    right: 225px;
+    bottom: 210px;
+    font-size: xxx-large;
+    }
+}
+
+@media screen and (max-width:700px){
+    
+    body{
+    max-width: 700px;
+    max-height: 700px;
+    margin: 0%;
+    transform: scale(.25);
+    position: relative;
+    overflow: hidden;
+    right: 150px;
+    bottom: 230px;
+    font-size: xxx-large;
+    }
+}
+
+@media screen and (max-width:500px){
+    
+    body{
+    transform: scale(.25);
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0%;
+    position: relative;
+    overflow: hidden;
+    right: 170px;
+    bottom: 130px;
+    font-size: xxx-large;
+    }
+}

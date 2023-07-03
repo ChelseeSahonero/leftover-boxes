@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: lightblue;
+    padding: 10px;
+    display: flex;
+    
+    height: 500px;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-content: center;
+
+    gap: 10px;
+}
+.item{
+    background-color:slateblue;
+    padding: 10px;
+    border: 1px solid;
+
+    width: 200px;
+}
