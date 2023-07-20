@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+html {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 10px;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    position: absolute;
+    width: 100vw;
+    overflow: hidden;
+}
+
+body:not( [data-control="pomu"] ) .uki-control
+
+.bg,
+.bg img {
+    pointer-events: none;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+
+main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+    z-index: 2;
+}
+
+main > div {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+main section {
+    display: block;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+}
+
+.global-uki {
+    color:  #B600FF;
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: #fff 1px 1px 0px, #fff -1px 1px 0px, #fff 1px -1px 0px, #fff -1px -1px 0px;
+    width: 100%;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.pomu {
+    height: auto;
+    pointer-events: none;
+    position: absolute;
+    width: auto;
+    z-index: 1;
+}
+
+img{
+    width: 600px;
+}
+
+@media( max-width: 400px ) {
+    #trans-rights-bar > .text {
+        font-size: 32px;
+    }
+}
+
+button{
+    /* appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none; */
+        background: #B600FF;
+        border: 1px solid #fff;;
+        border-radius: 6px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 3rem;
+        padding: 10px;
+        /* touch-action: manipulation; */
+}
+
+@keyframes pomuDance {
+    0% {
+        opacity: 0;
+    }
+    1%{
+        rotate: -25deg;
+        opacity: 1;
+    }
+
+    25%{
+        rotate: 25deg;
+    }
+
+    50% {
+        rotate: -25deg;
+    }
+
+    75%{
+        rotate: 25deg;
+    }
+
+    99%{
+        rotate: -25deg;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes inputShake {
+    0% {
+        margin-left: 5px;
+    }
+    50% {
+        margin-left: -5px;
+    }
+    100% {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 540px ) {
+    #global-pomu {
+        font-size: 4rem;
+    } }
+
+.uki{
+    position: absolute;
+    opacity: 0;
+    top: 10;
+    left: 10;
+    width: 10px;
+}
+
+.uki-dance{
+    animation: pomuDance 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.container{
+    width: 90%;
+    height: 90%;
+    position: fixed;
+    text-align: center;
+    margin: 0;
+    bottom: 5%;
+    left: 5%;
+}
+
+.pomu-links {
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.pomu-links a {
+    color: #B600FF;
+    text-decoration: none;
+    text-shadow: #fff 1px 1px 0px, #fff -1px 1px 0px, #fff 1px -1px 0px, #fff -1px -1px 0px;
+}
+
+.pomu-links a:hover {
+    text-decoration: underline;
+}
