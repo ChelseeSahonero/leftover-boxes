@@ -130,12 +130,10 @@ $(".uki").each(function () {
     return parseInt(localStorage.getItem('count')) || 0;
 }
 
-// Function to set the counter value to Local Storage
 function setCounterValue(value) {
     localStorage.setItem('count', value);
 }
 
-// Function to increment the counter
 function incrementCounter() {
     let counterValue = getCounterValue();
     counterValue++;
@@ -143,10 +141,8 @@ function incrementCounter() {
     document.getElementById('count').innerText = counterValue;
 }
 
-// Attach click event to the increment button
 document.getElementById('increment').addEventListener('click', incrementCounter);
 
-// Initialize the counter value on page load
 document.addEventListener('DOMContentLoaded', function() {
     let counterValue = getCounterValue();
     document.getElementById('count').innerText = counterValue;
